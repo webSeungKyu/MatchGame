@@ -4,15 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Grid_1
-  - Grid_2
-  - Grid_3
-  - Grid_4
-  - Grid_5
-  - Grid_6
-  - Grid_7
-  - Grid_8
   - Tile
+  - Grid
   layers:
   - Default
   - TransparentFX

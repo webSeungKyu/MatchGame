@@ -1922,7 +1922,7 @@ GameObject:
   - component: {fileID: 641703866}
   m_Layer: 0
   m_Name: Grid_5
-  m_TagString: Untagged
+  m_TagString: Grid
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2350,7 +2350,7 @@ GameObject:
   - component: {fileID: 747008733}
   m_Layer: 0
   m_Name: Grid_2
-  m_TagString: Untagged
+  m_TagString: Grid
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2694,7 +2694,7 @@ GameObject:
   - component: {fileID: 849103296}
   m_Layer: 0
   m_Name: Grid_3
-  m_TagString: Untagged
+  m_TagString: Grid
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2786,7 +2786,7 @@ GameObject:
   - component: {fileID: 859547198}
   m_Layer: 0
   m_Name: Grid_7
-  m_TagString: Untagged
+  m_TagString: Grid
   m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4230,7 +4230,7 @@ GameObject:
   - component: {fileID: 1381324481}
   m_Layer: 0
   m_Name: Grid_8
-  m_TagString: Untagged
+  m_TagString: Grid
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4574,7 +4574,7 @@ GameObject:
   - component: {fileID: 1551369796}
   m_Layer: 0
   m_Name: Grid_4
-  m_TagString: Untagged
+  m_TagString: Grid
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5977,7 +5977,7 @@ GameObject:
   - component: {fileID: 1981739683}
   m_Layer: 0
   m_Name: Grid_1
-  m_TagString: Untagged
+  m_TagString: Grid
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6153,7 +6153,7 @@ GameObject:
   - component: {fileID: 2030887194}
   m_Layer: 0
   m_Name: Grid_6
-  m_TagString: Untagged
+  m_TagString: Grid
   m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
