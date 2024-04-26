@@ -36,17 +36,30 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
 
-            
+        /*    
         foreach (GameObject t in tiles)
         {
             //Debug.Log(t.transform.position);
             Instantiate(candyPrefabs[Random.Range(0, candyPrefabs.Count)], t.transform.position, Quaternion.identity);
-        }
+        }*/
 
 
 
         Debug.Log(board.GetLength(0));
         Debug.Log(board.GetLength(1));
+        for(int i = 0; i < board.GetLength(0); i++)
+        {
+            for(int j = 0; j < board.GetLength(1); j++)
+            {
+                board[i, j] = Instantiate(candyPrefabs[Random.Range(0, candyPrefabs.Count)], transform.position, Quaternion.identity);
+            }
+        }
+
+        foreach(GameObject go in board)
+        {
+            Debug.Log(go.name);
+        }
+
     }
 
 }
