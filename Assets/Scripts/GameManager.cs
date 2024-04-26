@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
-
+using Random = UnityEngine.Random;
 public class GameManager : MonoBehaviour
 {
     
@@ -35,31 +37,18 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        grids = grids.OrderBy(x => Convert.ToInt32(x.name.Replace("Grid_", ""))).ToArray();
+        tiles = tiles.OrderBy(x => Convert.ToInt32(x.name.Replace("Tile_", ""))).ToArray();
 
-        /*    
-        foreach (GameObject t in tiles)
-        {
-            //Debug.Log(t.transform.position);
-            Instantiate(candyPrefabs[Random.Range(0, candyPrefabs.Count)], t.transform.position, Quaternion.identity);
-        }*/
-
-
-
-        Debug.Log(board.GetLength(0));
-        Debug.Log(board.GetLength(1));
-        for(int i = 0; i < board.GetLength(0); i++)
+        int temp = 0;
+        for (int i = 0; i < board.GetLength(0); i++)
         {
             for(int j = 0; j < board.GetLength(1); j++)
             {
-                board[i, j] = Instantiate(candyPrefabs[Random.Range(0, candyPrefabs.Count)], transform.position, Quaternion.identity);
-            }
+                board[i, j] = Instantiate(candyPrefabs[Random.Range(0, candyPrefabs.Count)], tiles[temp].transform.position, Quaternion.identity);
+                temp++;
+            }   
         }
-
-        foreach(GameObject go in board)
-        {
-            Debug.Log(go.name);
-        }
-
     }
 
 }
