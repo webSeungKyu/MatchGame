@@ -6,12 +6,16 @@ using UnityEngine;
 using Random = UnityEngine.Random;
 public class GameManager : MonoBehaviour
 {
-    
+    //싱글톤
     public static GameManager Instance;
+    //match할 프리팹 6개
     public List<GameObject> candyPrefabs = new List<GameObject>();
 
+    //8x8 표시판 / 8줄이므로 8개
     GameObject[] grids;
+    //표시판 안의 타일 / 8줄에 8개씩이므로 64개
     GameObject[] tiles;
+    //match 프리팹을 관리할 배열
     GameObject[,] board;
 
     private void Awake()
