@@ -33,9 +33,11 @@ public class GameManager : MonoBehaviour
         //씬이 넘어가도 오브젝트 유지
         DontDestroyOnLoad(this.gameObject);
         #endregion
-
+        //Grid 태그 찾아서 넣기 (8개)
         grids = GameObject.FindGameObjectsWithTag("Grid");
+        //Tile 태그 찾아서 넣기 64개
         tiles = GameObject.FindGameObjectsWithTag("Tile");
+        //match 프리팹을 관리할 배열 / 8x8
         board = new GameObject[grids.Length, grids.Length];
     }
 
